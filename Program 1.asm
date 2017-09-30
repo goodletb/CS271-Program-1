@@ -14,10 +14,10 @@ INCLUDE Irvine32.inc
 	;numbers the program will get from input or calculations
 	firstNumber		dword		?
 	secondNumber		dword		?
-	resultAdd			dword		?	;this is the result of addition of the two numbers
-	resultSub			dword		?	;this is the result of subtraction of the two numbers
-	resultMul			dword		?	;this is the result of multiplication of the two numbers
-	resultDiv			dword		?	;this is the integer result of division of the two numbers
+	resultAdd		dword		?	;this is the result of addition of the two numbers
+	resultSub		dword		?	;this is the result of subtraction of the two numbers
+	resultMul		dword		?	;this is the result of multiplication of the two numbers
+	resultDiv		dword		?	;this is the integer result of division of the two numbers
 	resultDiv2		dword		?	;this is the remainder of the result of the division of the two numbers
 
 	;strings the program will display
@@ -30,8 +30,8 @@ INCLUDE Irvine32.inc
 	info_2			byte		"The difference of the two numbers is: ", 0
 	info_3			byte		"The numbers multiplied together give: ", 0
 	info_4			byte		"The result of dividing the numbers is: ", 0
-	info_4_2			byte		" with a remainder of: ", 0
-	finished			byte		"The program has finished executing and will close...", 0
+	info_4_2		byte		" with a remainder of: ", 0
+	finished		byte		"The program has finished executing and will close...", 0
 
 .code
 main PROC
