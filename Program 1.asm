@@ -13,11 +13,11 @@ INCLUDE Irvine32.inc
 
 	;numbers the program will get from input or calculations
 	firstNumber		dword		?
-	secondNumber	dword		?
-	resultAdd		dword		?	;this is the result of addition of the two numbers
-	resultSub		dword		?	;this is the result of subtraction of the two numbers
-	resultMul		dword		?	;this is the result of multiplication of the two numbers
-	resultDiv		dword		?	;this is the integer result of division of the two numbers
+	secondNumber		dword		?
+	resultAdd			dword		?	;this is the result of addition of the two numbers
+	resultSub			dword		?	;this is the result of subtraction of the two numbers
+	resultMul			dword		?	;this is the result of multiplication of the two numbers
+	resultDiv			dword		?	;this is the integer result of division of the two numbers
 	resultDiv2		dword		?	;this is the remainder of the result of the division of the two numbers
 
 	;strings the program will display
